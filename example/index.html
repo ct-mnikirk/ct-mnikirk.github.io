@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="">
     <meta name="author" content="Matthew R Nikirk">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Courgette" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="icon" href="./favicon.png" type="image/png">
@@ -16,6 +16,7 @@
 <body>
     <div class="header">
         <h1>Business Name</h1>
+        <h2 class="header-writing">A witty slogan</h2>
     </div>
 
     <div class="navbar">
@@ -135,11 +136,11 @@
     <div class="contact-form">
         <form>
             <label for="name">Name: </label>
-            <input type="text" name="name" />
+            <input type="text" name="name" required/>
             <label for="email">Email: </label>
-            <input type="email" name="email" />
+            <input type="email" name="email" required/>
             <label for="phone">Phone #: </label>
-            <input type="tel" name="phone" />
+            <input type="tel" name="phone" required/>
             <label for="comment">Your comments:</label>
             <textarea name="comment"></textarea>
             <br />
