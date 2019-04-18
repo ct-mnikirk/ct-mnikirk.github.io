@@ -102,7 +102,7 @@ hr {
     background-color: #333;
     background-color: rgba(51,51,51,0.7);
     color: #fff;
-    font-size: 25px;
+    font-size: 1.5em;
     padding: 5px 10px 5px 10px;
     position: absolute;
     bottom: 5%;
@@ -281,8 +281,8 @@ input, textarea {
 }
 /*#endregion*/
 
-/* #region Footer */
-.footer {
+/* #region Footer - gray box */
+.footer-box {
     clear: left;
     width: 90%;
     margin: 0 auto;
@@ -291,7 +291,16 @@ input, textarea {
     border-radius: 25px;
 }
 
-.footer p {
+.footer-box p {
     padding: 15px;
 }
 /* #endregion */
+
+/* #region Footer - no box */
+.footer {
+    clear: left;
+    padding: 1em 0 1em 2em;
+}
+
+/* #endregion */
+
