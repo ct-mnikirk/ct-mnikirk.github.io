@@ -1,0 +1,105 @@
+/* 
+    key blue #194774
+    dar k green #395036
+    key yellow: #ffc600
+*/
+
+body {
+    padding-top: 4em;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .04em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-dblue {
+    background-color: #194774;
+    color: #fff;
+}
+
+.bg-twhite {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255,0.7);
+}
+
+.bg-dgreen {
+    background-color: #395036;
+    /*background-color:rgba(57, 80, 54, 0.8);*/
+    color: #fff;
+}
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ffc600;
+}
+
+.dropdown-item {
+    background-color: #194774;
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #194774;
+    color: #ffc600;
+}
+
+.fa.fa-navicon {
+    color: #ffc600;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    background-image: url(./field2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ar {
+    color: #ffc600;
+    font-family: 'Courgette', cursive;
+}
+
+.ka {
+    color: #194774;
+}
+
+
+
+.search {
+    /*height: 20em;*/
+    width: 100%;
+    background-image: url(./housetop.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search .btn {
+    background-color: #fff;
+    width: 15rem;
+    color: #194774;
+    margin-bottom: 1rem;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /*.header {
+        height: 20em;
+    }
+
+    .search {
+        height: 10em;
+    }*/
+}
